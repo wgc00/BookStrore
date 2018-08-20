@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators default="/module">
+    <!--定义不要过滤的页面-->
+    <exculdes>
+        <pattern>/css/*</pattern>
+        <pattern>/js/*</pattern>
+    </exculdes>
+
+    <!--定义需要修改的页面-->
+    <decorator name="book" page="book_tel.jsp">
+        <pattern></pattern>
+    </decorator>
+
+    <decorator name="" page="">
+        <pattern></pattern>
+    </decorator>
+</decorators>
